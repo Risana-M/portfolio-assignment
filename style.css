@@ -1,0 +1,285 @@
+/* Reset and global styles */
+body {
+    background-color: #0f1116;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+p {
+    color: #cccccc;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(47, 45, 45)!important;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+.navbar-toggler{
+    color: white;
+    background-color: white;
+}
+.navbarNav{
+    color: white;
+}
+.mb-2 {
+    margin-top: .5rem;
+}
+.me-auto{
+    margin-right: auto;
+}
+ul{
+    margin-top: 0;
+}
+li{
+    list-style: none;
+    align-items: start;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: list-item;
+    unicode-bidi: isolate;
+    text-align: left;
+}
+i{
+    text-align: left;
+}
+.logo i{
+    gap: 8px;
+}
+/* Hero Section */
+section.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+section.container p {
+    font-size: 1.2rem;
+    color:white;
+    font-weight: 500;
+}
+
+section.container h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section.container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: yellow;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    transition: 0.3s;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: yellow;
+
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid yellow;
+    color: yellow;
+    padding: 0.6rem 1.5rem;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: yellow;
+    color: black;
+   
+}
+
+/* Profile right Image */
+img.img-fluid {
+    border-radius: 50%;
+    border: 5px solid yellow;
+    padding: 5px;
+    box-shadow: 0 0 40px yellow(231, 255, 95, 0.4);;
+}
+
+/* Skills Strip */
+.skills {
+    background-color: #191c22;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .badge {
+    color: #ff6b5f;
+    border-color: #ff6b5f;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+}
+
+
+.list-group li{
+   background-color:rgb(39, 36, 36);
+   color: white;
+}
+
+/* About Section */
+#about h3.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+
+
+/* Projects */
+#projects {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    
+}
+
+#projects .section-title {
+    
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    background-color: yellow;
+}
+element.style {
+    cursor: pointer;
+}
+.btn{
+    border: 1px solid yellow;
+
+}
+.bg-btn{
+    background-color: yellow;
+}
+.h3,h2{
+    color: yellow;
+}
+.h4{
+color: yellow;
+}
+.card-text {
+    color:yellow
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.text-color{
+    color: yellow;
+}
+
+
+/* Contact Form */
+#contact .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color:yellow;
+    text-align: center;
+    align-items: center;
+}
+
+#contact input,
+#contact textarea {
+    background-color: #1c1f26;
+    border: 1px solid #333;
+    color: #ffffff;
+    
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+    color: #888;
+    
+}
+
+#contact .btn-primary {
+    background-color: yellow;
+    border: none;
+    color: black;
+    
+}
+
+#contact .btn-primary:hover {
+    background-color: transparent;
+    border: 2px solid yellow;
+    color:yellow;
+    
+    
+}
+
+/* Footer */
+footer {
+    background-color:black;
+    color: white;
+    border-top: 1px solid black;
+    width:100%;
+    height: 100px;
+}
+/*button*/
+.button{
+    color: white;
+    border: white;
+}
+.footer-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    section.container h1 {
+        font-size: 2.2rem;
+    }
+
+    section.container h3 {
+        font-size: 1.5rem;
+    }
+
+    img.img-fluid {
+        max-width: 250px;
+    }
+}
