@@ -4,4 +4,4 @@ It includes multiple pages such as Home, About, Projects, and Contact.
 
 github repository = https://github.com/Risana-M/portfolio-assignment.git
 
-netlify live website = portfolio-assignmen.netlify.app
+netlify live website = https://portfolio-assignmen.netlify.app
